@@ -144,7 +144,7 @@ def main():
             canal = "whatsapp" if movil else "fijo: probar WhatsApp, si no llamar"
             wa = f"https://wa.me/{f['tel']}?text={urllib.parse.quote(msg)}"
             w.writerow([
-                i, f["pais"], CIUDAD[f["pais"]], f["nicho"], f["nombre"], "+" + f["tel"], canal, f["web"],
+                i, f["pais"], CIUDAD[f["pais"]], f["nicho"], f["nombre"], f"+{f['tel'][:2]} {f['tel'][2:]}", canal, f["web"],
                 rating, f["reviews"], d, f["variante"], msg, wa,
                 f"https://www.google.com/maps?cid={f['cid']}",
                 "", "", "", "", "", "", "",
