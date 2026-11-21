@@ -1,0 +1,298 @@
+# pais|nicho|nombre|tel|web|rating|reviews|claimed|cid
+AR|dentista|Dental Studio Dr Lucas Corvalan|+54115758-1883|lucascorvalan.com|5|30|1|1000718458614330666
+AR|dentista|Cancio Odontología|+54112454-5658|-|5|5|1|10073405354535137297
+AR|dentista|Fannys Dental|+549113354-5402|-|4.8|70|1|10076717696813696601
+AR|dentista|Mikler Odontología|+54114824-6496|mikler.com.ar|4.4|58|1|10087721013711414125
+AR|dentista|Daniel I Zablotzky|+54114301-3025|-|4.3|12|0|10110516436033752504
+AR|dentista|Solucion Dental Odontología|+54112604-8688|soluciondental.com.ar|4.9|144|1|10138018773111740689
+AR|dentista|Urgencia Odontología|+54114372-2508|-|3.1|68|0|10170551747926550334
+AR|dentista|Crespo Uriburu y Asociados|+54114805-3838|-|4.1|7|0|10187141430605500710
+AR|dentista|Dra Soldano Maria Mercedes|+54114431-3291|-|4.7|9|0|10221174222428733498
+AR|dentista|Dental Flores|+54114612-6979|-|4.5|60|1|10228149302019460497
+AR|dentista|Clínica Dental Mondragon|+54112460-0563|clinicadentalmondragon.com.ar|4.8|19|1|10249402938595884424
+AR|dentista|Dra. María Eugenia Stekelorum|+549116155-0484|drastekelorum.com|5|161|1|10347734515120285904
+AR|dentista|Odontologos Villa del Parque|+54115412-4297|odontologosvilladelparque.com.ar|4.8|72|1|10370161096012087000
+AR|dentista|M & N Odontología|+54113768-8590|mynodontologia.com.ar|4.1|9|0|10391537778305782100
+AR|dentista|Odontología Integral Dra. Yanina Olexen|+549116429-8832|ig|5|22|1|10445606786098794564
+AR|dentista|G&G dental center|+549113148-4306|ggdentalcenter.com.ar|5|10|1|10468802195695340736
+AR|dentista|Cala Odontología Integral|+54117248-5284|basic|5|40|1|10481669940431125993
+AR|dentista|Miguel A Notte|+54114372-8881|-|2|23|0|1048551470816417419
+AR|inmobiliaria|Gruz Propiedades|+54116924-4970|gruzpropiedades.com.ar|4.9|177|1|10003510433030253716
+AR|inmobiliaria|Le Bleu real estate|+54114440-2257|lebleu.com.ar|3.9|53|1|10011376363757643711
+AR|inmobiliaria|Vremont Chiesa|+54117539-9829|vremont.com.ar|4.6|20|1|10020438024676208324
+AR|inmobiliaria|Oreste Propiedades|+54114302-7154|-|3.1|30|0|10027081759760042992
+AR|inmobiliaria|Vremont Pisani|+54114958-4554|vremont.com.ar|3.6|90|1|10031385348848371860
+AR|inmobiliaria|Century 21 Ezquerra Palermo|+549115317-3266|-|4|12|1|10043990294932635965
+AR|inmobiliaria|Caian Negocios Inmobiliarios|+54114784-4444|caian.com.ar|4.4|85|1|10059037229060013546
+AR|inmobiliaria|Lounge Propiedades|+54115353-1299|loungepropiedades.com.ar|3.9|89|1|10059522233134673869
+AR|inmobiliaria|Vivir Propiedades|+54114544-3637|vivirpropiedades.com.ar|4|82|1|10066283786524762858
+AR|inmobiliaria|Morganson Real Estate Group|+54114311-1045|morganson.com.ar|4|52|1|1006848486616152099
+AR|inmobiliaria|Gath Propiedades|+54114903-1900|-|3.5|8|0|10069173486502657518
+AR|inmobiliaria|Enter Propiedades|+54114865-4441|enteronce.com.ar|4.5|92|1|10077339421494925648
+AR|inmobiliaria|Balderrama Propiedades|+54113180-3921|balderramapropiedades.com.ar|5|23|1|10078517754120034512
+AR|inmobiliaria|Situar Realty|+549115096-6664|situar.com|4.3|96|1|10094953051860416466
+AR|inmobiliaria|Cimas Propiedades|+54114503-6262|cimaspropiedades.com.ar|4.3|214|1|10099547762510487471
+AR|inmobiliaria|Korn Propiedades Barrio Norte|+54810-444-5676|kornpropiedades.com.ar|3.7|56|1|10113638963984866307
+AR|inmobiliaria|Flavio Nuñez & Hugo Garcia Ben|+54114855-5770|-|4.6|95|1|10144486091667772434
+AR|inmobiliaria|Scorpios Propiedades|+54113243-9340|scorpios.com.ar|4.6|65|1|10149197248921810508
+AR|inmobiliaria|Rapaport Bienes Raíces|+54113807-4596|rapaport.ar|4.9|17|1|10155045180916927
+AR|gimnasio|Club Social Sportivo Varela|+54114915-2418|-|4.2|193|0|10013036591548919263
+AR|gimnasio|Body Club|+54113391-4528|-|4.5|230|1|10024568650424654547
+AR|gimnasio|Gimnasio ST|+54114142-2771|gimnasiost.com.ar|4.6|224|1|10035964045137181719
+AR|gimnasio|Treina|+549117182-0876|treina.fit|4.9|91|1|10071809763909244545
+AR|gimnasio|Gym Smart Training Center|+54116637-6046|ig|4.7|111|1|10084062753356136469
+AR|gimnasio|Pilates Auténtico Metodo|+549115523-0325|-|4.7|13|1|1009018590766810679
+AR|gimnasio|Toning Fit Avellaneda|+54112546-1362|ig|4.5|207|1|10106486730248670279
+AR|gimnasio|Celfit Estudio Thermobike|+54112794-8231|ig|5|33|0|10130266000860834599
+AR|gimnasio|Powerfit Evolution|+54113030-4860|-|4.8|9|0|10165788046049028843
+AR|gimnasio|Gym Steel & Blood|+54113764-4255|ig|4.5|139|1|10204096070170192387
+AR|gimnasio|Energym|+54115327-8637|-|4.3|19|0|1022707094187418065
+AR|gimnasio|Beast Club|+54112770-5344|beastclub.com.ar|4.9|154|1|10260387294097650341
+AR|gimnasio|Marcelo Hernández Gym|+54112637-1146|-|4.2|222|0|10306469105717399619
+AR|taller|Axel Cerrajeria|+54114854-6367|-|4.9|11|0|10032478892683660310
+AR|taller|Mecánica Pehuén|+54114209-3516|-|4.9|41|0|10086227766205070320
+AR|taller|Mecánica De Biase|+54116585-8382|-|4.5|31|1|10266648989521616437
+AR|taller|Gomería Neumen|+54115233-8014|neumen.ar|4.3|106|1|10326112503737005706
+AR|taller|Service Integral A.F|+54114867-5285|-|5|6|0|10334701578346819966
+AR|taller|Full Inyección Coppola|+54117359-8061|basic|5|8|1|10363546437487905133
+AR|taller|Taller Julio|+54114521-9884|-|4.6|5|0|10476839968270462362
+AR|taller|Taller Mecánico 2 Strokes|+54116289-1866|-|4.9|15|0|10621621794964905883
+AR|taller|Motornova S.H.|+54114552-3070|-|4.8|71|1|10793403943817477640
+AR|taller|Salvador y Barbieri|+54114536-2188|salvadorybarbieri.com.ar|4.4|35|0|10840784345773801166
+AR|taller|Taller Mecánico Mario|+54114568-2682|-|4.4|30|1|10934162411710057016
+AR|taller|Anibal - Nico Instrumental|+54112534-8473|fb|4.7|67|1|10975388147745861166
+AR|taller|Antonio y Favio|+54114581-3237|-|4.8|9|0|11006675500270739283
+AR|taller|Cristales Monroe|+54114541-4237|basic|4.1|264|1|11064446349451737195
+AR|taller|Jocar's|+54115864-7374|-|4.8|75|1|11110593079459536259
+AR|taller|JMS Direcciones Hidráulicas|+54116003-1454|-|4.6|27|1|11278877276519720351
+AR|taller|El Chueco|+54114585-7481|-|4.6|114|0|11577166341677879107
+AR|taller|Encendido Fernández|+54114923-9461|-|4.7|63|0|11616030293211659744
+AR|estetica|Jz Salud y Belleza|+54112538-1516|-|4.9|49|1|10002803770424967024
+AR|estetica|Darling Coiffeur|+54116610-6611|-|4.9|50|1|10006823754398263558
+AR|estetica|Yanel Lucero Beauty Artist|+54112851-6046|ig|5|23|1|10034884113371613360
+AR|estetica|Peluquería Roorlik|+54113200-3104|roorlik.ar|4.1|61|1|1003572018366934947
+AR|estetica|Organic Wax Almagro|+54113471-1819|basic|5|20|1|10051999385565665407
+AR|estetica|Única Nails and Beauty|+54112290-1117|ig|5|53|1|10063125581311841347
+AR|estetica|M&Y Studio|+54113657-8989|-|5|23|1|1006535743536086286
+AR|estetica|Montana Deluxe|+54113861-0319|ig|4.5|231|1|10068421630786006764
+AR|estetica|Kosuart|+54114951-9231|fb|4.9|30|1|1007178453218906539
+AR|estetica|Peluquería Virgo|+54112669-1399|-|3|5|0|10092155523304657757
+AR|estetica|ETG Tecnología Capilar|+54113611-4230|ig|4.4|10|1|10108665085192220429
+AR|estetica|Anna's Beauty|+54117100-7803|basic|4.9|84|1|10110981833873387454
+AR|estetica|Osvaldo Garat Coiffeur|+54113280-7563|-|4.6|81|0|10120009147925167923
+AR|estetica|Le Grand Patron|+54116889-0212|legrandpatron.com.ar|5|88|1|10135145621004431880
+AR|estetica|La Mansión de las Uñas|+54112551-9541|ig|4.9|48|1|10143484825911871267
+AR|estetica|Dos Gardenias|+54112655-4923|ig|5|8|1|10159899523913905185
+MX|dentista|MN Dental Del Valle|+525569052037|-|5|5|1|10013938533354940646
+MX|dentista|Clínica Dental Argentina Tacuba|+525548815020|clinicadentalargentina.com|4.7|63|1|10020460936883452962
+MX|dentista|Dental San Angel|+525557990857|-|3.4|5|1|10043591184207019763
+MX|dentista|Corporativo Dental|+525541798320|-|3.5|6|1|10058139269451902456
+MX|dentista|Dentalux|+525513644934|dentalux.com.mx|5|9|1|10059995203266340452
+MX|dentista|Hemidental Care Exhibimex|+525552719045|-|1.8|8|1|10094682530349095374
+MX|dentista|Dentaloreto 3|+525579992049|dentaloreto.com|5|5|1|10103751307908182475
+MX|dentista|Caballero Trejo Salomón|+525555848096|-|3.5|11|0|10110570682047544038
+MX|dentista|Dental Digital|+525555253113|clinicadentaldigital.mx|4.6|105|1|10112790466588501344
+MX|dentista|Dental Suki|+525541267761|-|4.7|46|1|10123408561447658387
+MX|dentista|Clínica Dental Daniel Bustos|+525512956084|-|4.3|8|1|10125827126345554930
+MX|dentista|Smilica Clínica Dental|+525580256854|smilica.me|5|12|1|1016286719946070271
+MX|dentista|Consultorio Dental MilGab|+525577999639|basic|4.3|12|1|10183797635538524684
+MX|dentista|Smilify Dental Club|+525531366589|fb|5|10|1|1019062085978457289
+MX|dentista|Sosa Sauceda Ninfa María|+525553891009|-|3.9|8|1|10195887626695647857
+MX|dentista|Consultorio Dental StarDent|+525544845132|fb|5|6|1|10210138158549468697
+MX|inmobiliaria|Valuadores Profesionales|+525590697300|-|5|19|1|10004498314138971969
+MX|inmobiliaria|IN-GENNIO Bienes Raíces|+525612866658|ingennio.mx|4.7|12|1|10026977902879110481
+MX|inmobiliaria|Tecnocasa Clavería|+525570982394|tecnocasa.mx|4.5|15|1|10122768965934037012
+MX|inmobiliaria|Arkanta Inmobiliaria|+525613839098|arkanta.com.mx|5|7|1|10129552191916974876
+MX|inmobiliaria|Camacho Bienes Raíces|+525637000344|camachobienesraices.com|4.9|8|1|10131498062570547888
+MX|inmobiliaria|Grupo Coyoacán Inmobiliaria|+525562715739|grupocoyoacan.com|4.8|6|1|10136150437472192616
+MX|inmobiliaria|Condominio Rubén Darío|+525552810235|-|4.4|20|0|10165528919361169115
+MX|inmobiliaria|Decius Inmobiliaria|+525641543721|deciusinmobiliaria.com|4.8|44|1|10192091440290432006
+MX|inmobiliaria|Tecnocasa Portales Sur|+525541303616|-|4.3|55|1|10214148246661607887
+MX|inmobiliaria|Auri Desarrollos Habitacionales|+525553957675|auri.com.mx|4.3|8|0|10226649517046209384
+MX|inmobiliaria|Easy Rent & Sell|+525544884086|easyrentandsell.com.mx|5|8|1|10241672904646210858
+MX|inmobiliaria|Tecnocasa Los Cipreses|+525588489727|tecnocasa.mx|4.2|36|1|10327653261890109348
+MX|inmobiliaria|AsCasa Asesores Inmobiliarios|+525548275627|fb|5|9|1|1037084496206649864
+MX|inmobiliaria|Gorostiza 56 Deptos|+529833620008|grupoubkgorostiza.com|1.8|9|1|10379040577624590986
+MX|inmobiliaria|Morales Arias Bienes Raíces|+525556742871|mabienesraices.com.mx|5|9|1|10389753712216915780
+MX|inmobiliaria|Cortina Bienes Raíces|+525555406983|-|4.3|26|0|10403002488042502053
+MX|inmobiliaria|Century 21 Aralbe|+525543983200|century21mexico.com|4.8|167|1|10405128758560271773
+MX|inmobiliaria|M2Crowd|+525541655352|m2crowd.com|2.2|39|1|10427043164251437792
+MX|gimnasio|Gym VIE|+525551128698|-|3.9|220|1|10016077291950393570
+MX|gimnasio|Lencho's Gym|+525591195560|fb|4.5|108|0|1012240036365253807
+MX|gimnasio|Empolerarte Pole Studio|+525525620157|empolerarte.com|5|18|1|10171057045461527278
+MX|gimnasio|Zumba PDS|+525554378939|fb|5|6|1|10218478476392269712
+MX|gimnasio|Unbroken CF Center|+525543680847|-|4.7|51|0|10282824069536794159
+MX|gimnasio|Lucha Libre Valiente|+525564264251|-|4.7|55|1|10284637681790193510
+MX|gimnasio|Body Harmony Spa & Fit|+525568090536|spabodyharmony.com|4.3|7|1|10413462880726939636
+MX|gimnasio|AEM Gimnasio Orgánico|+525555885680|-|4.6|29|0|10428044857631450272
+MX|taller|Mecánica Hojalatería y Pintura Anáhuac|+525534096795|-|4.8|9|1|10091968871478299748
+MX|taller|Servicio El Chino|+525557820550|-|4.3|188|1|10115644183625863446
+MX|taller|Vulcanizadora Cervantes|+525528825701|-|4.6|23|1|10144326579210044564
+MX|taller|Vulcanizadora Izquierdo|+525532416970|-|3.7|113|1|10196130394981607833
+MX|taller|Servicio Profesional de Mecánica Automotriz|+525555516286|-|5|5|0|10204021139007759816
+MX|taller|Mustang Garage México|+525614729457|mustanggaragemexico.com|4.6|36|1|10246089929405370732
+MX|taller|Vulcanizadora Llantas Usadas Felipe Pescador|+525546131088|-|4.6|54|0|10257847822092158532
+MX|taller|Sensores TPMS Especialistas|+525535221179|-|4.4|7|1|1028153454897027103
+MX|taller|Vulcanizadora David Rines y Llantas|+525555402034|-|4.1|16|1|10299700098320341184
+MX|taller|Mofles Servicio Martínez|+525552038218|fb|4.4|15|1|1030074373467979035
+MX|taller|Rines y Llantas Consulado|+525529809013|-|4.1|48|1|10335752557795928672
+MX|taller|Vulcanizadora La Conchita|+525551643979|-|4.6|11|0|10367605952821840676
+MX|taller|Frang Refinish Hojalatería y Pintura|+525530054838|-|4.8|167|1|1037566465996136596
+MX|taller|Servicio Velazquez|+525556495406|-|4.5|22|0|10471190335037109614
+MX|taller|Proturbo|+525530706145|proturbo.mx|4.4|159|1|10494677517746137694
+MX|taller|Automotive Mechanic Workshop Guerrero|+525555296764|-|4.4|16|1|10498568310812509351
+MX|estetica|MicroBlading Master Estudio|+525546475806|microbladingmasterstudio.com|4.8|121|1|10008723416217403434
+MX|estetica|LS Studio Barbería y Salón|+525541769785|-|4|67|1|10015555972494115806
+MX|estetica|Cuore Studio & Barber|+525527188285|-|4.8|38|1|10021347168824856824
+MX|estetica|SAN Hair & Makeup|+525555635653|-|4.5|105|1|10026690005750246873
+MX|estetica|Estética Miranda|+525555902903|-|4.9|52|1|10050340962927920506
+MX|estetica|HACHE Hair Studio|+525516490752|-|4.3|12|1|10057329414999389804
+MX|estetica|Estética Nueva Imagen|+525552778098|-|4.3|6|0|10062623127419298289
+MX|estetica|Estética Monser|+525555460672|-|4.7|39|1|10063151096578357231
+MX|estetica|Estética Citlally|+525554407369|-|5|7|1|10070280841839434845
+MX|estetica|Harmony Faz Studio|+525650664791|-|5|14|1|10077013947531686877
+MX|estetica|Rosaura Martínez Lash Artist|+525578537366|ig|5|28|1|10088294636744887750
+MX|estetica|Hermosa Vanidad|+525518158419|-|3.3|7|1|10090911434503606543
+MX|estetica|LePuqueanche Privé|+525550762831|-|4|6|0|10094785568308882666
+CL|dentista|Clínica Auradental|+56951697079|auradental.cl|5|7|1|10014629916954128809
+CL|dentista|Denticenter|+56971305685|denticenter.cl|5|17|1|10048913429804044756
+CL|dentista|Guerrero y Braniff Ortodoncia|+56987748040|guerreroybraniff.cl|4.9|133|1|10050607134868463762
+CL|dentista|Clínica Identa|+56222322496|identa.cl|5|15|1|10073442280286649926
+CL|dentista|Clínica Dental Sonríe|+56232206090|clinicadentalsonrie.cl|4.8|295|1|10097176280977426700
+CL|dentista|Centro Odontológico Muñoz Asociados|+56225588457|-|4.5|16|0|1024133509095467583
+CL|dentista|Odontomedic CH|+56940159256|fb|4.2|12|1|10244093292353379272
+CL|dentista|Clínica Dental y Estética Renacer|+56926221910|dentalyesteticarenacer.cl|5|10|1|10249212552451505842
+CL|dentista|Dental Siloe|+56226732586|-|5|6|1|1024962340485377236
+CL|dentista|Clínica Dental Rie|+56987583327|clinicadentalrie.cl|5|14|1|10310314625957717088
+CL|dentista|Clínica Dental Medicare Endodoncia|+56963183991|clinicadentalmedicare.com|5|5|1|10442049531796231307
+CL|dentista|Dental Implants Clinic Chile|+56232243069|maxilofacial.cl|4|8|1|1047095162502769701
+CL|dentista|Sweetdent|+56987702591|ig|5|9|1|10640574964489625906
+CL|dentista|Clínica Dental Nuvident|+56227019923|nuvident.cl|4.5|29|1|10648074885512046374
+CL|dentista|Alto Sonríes|+56226678749|-|5|7|1|10672386163414595298
+CL|dentista|Clínica Dental Providentist|+56993941451|providentist.cl|5|42|1|10712279452527540661
+CL|dentista|Consulta Dental Somás|+56967795846|-|5|5|1|10732338812653861069
+CL|dentista|Clínica Los Robles|+56949161037|clinicalosrobles.cl|5|27|1|10801244023660802547
+CL|dentista|Clínica Dental Campi|+56222931790|clinicadentalcampi.cl|3.7|6|0|10857285717418663468
+CL|dentista|Red Odontológica Providencia|+56959131597|redodontologica.cl|4.9|56|1|10867991860132314379
+CL|inmobiliaria|Easyhogar by Egue|+56990122690|easyhogarbyegue.com|5|7|1|10529895044358823547
+CL|inmobiliaria|Ventana Urbana Propiedades|+56222170006|ventanaurbana.cl|4.2|27|1|10640382489968711051
+CL|inmobiliaria|Icuadra|+566000061030|icuadra.cl|1.7|45|1|10649587205336932114
+CL|inmobiliaria|Selmar Propiedades|+56979000733|selmarpropiedades.cl|4.8|46|1|10903892761652444824
+CL|inmobiliaria|Constructora Santolaya|+56223280800|santolaya.cl|2.1|63|0|10956866758187090898
+CL|inmobiliaria|Inmobiliaria Edificio Panorámico|+56222316509|-|4.2|135|0|11294053310525058628
+CL|inmobiliaria|Fuenzalida Propiedades|+56222341500|fuenzalida.com|1.5|8|1|11338555359141208398
+CL|inmobiliaria|Llamin Propiedades|+56950750768|basic|5|6|1|11452568987844911454
+CL|inmobiliaria|Propiedades Yapur|+56957811669|propiedadesyapur.cl|2|6|0|11578817038380837523
+CL|inmobiliaria|Inmobiliaria Parque Bellavista|+56227235572|-|4.2|5|0|11582889377356283818
+CL|inmobiliaria|Inmobiliaria Keller|+56227865228|-|4.2|35|1|11872224126185788777
+CL|inmobiliaria|Isbast|+56974541544|isbast.com|3|124|1|11882200514070670582
+CL|gimnasio|Legión Spartan|+56945931042|fb|5|5|1|10058467128182627781
+CL|gimnasio|Club BJJ Figueroa|+56956116974|bjjf.cl|4.8|51|1|10071181283159317817
+CL|gimnasio|Venfit Gym|+56929449476|basic|4.8|195|1|10085418809573668088
+CL|gimnasio|MovFit|+56967089641|ig|5|12|1|10108395041106339541
+CL|gimnasio|Box Max Progress|+56982424558|basic|4.8|50|1|10230475977429847806
+CL|gimnasio|Revolution Fit|+56995793594|-|4.7|27|0|10363808536088917177
+CL|gimnasio|Temple Box|+56229683865|-|4.9|66|0|10373864263350174721
+CL|gimnasio|Fuerza & Nutrición|+56937880253|fuerzaynutricion.cl|5|83|1|10395799551801868517
+CL|gimnasio|Gimnasio Vital Training|+56990155063|vitaltraining.cl|3.8|13|1|10413958526177672892
+CL|gimnasio|Academia Infinito Jiu Jitsu|+56977683092|-|5|24|1|10473064790991586285
+CL|gimnasio|Meta Prime Fitness|+56922096631|-|4.3|6|1|10523051183339514579
+CL|gimnasio|Acropolestudio|+56946348709|-|4.8|60|1|10636262678725482959
+CL|gimnasio|Bloclab|+56966852164|bloclab.cl|4.4|242|1|10661940529683951774
+CL|taller|55 Garage|+56978931753|-|5|16|0|10021988889832942559
+CL|taller|Bosch Car Service Felipe Miranda|+56227585276|tallerboschcarservice.cl|4.1|9|1|10065657641594668200
+CL|taller|TurbosPro|+56997393284|-|4.2|5|1|10076084647902209443
+CL|taller|Carlos Lorca Valdés|+56977893217|-|3.9|16|0|10082589145518714218
+CL|taller|Serviteca Grove|+56949337258|servitecagrove.cl|4.5|56|1|1011805543899978456
+CL|taller|Mototoy Service Motos|+56987605875|-|3.5|6|0|10200458282724077441
+CL|taller|Garage Lagcar|+56227234380|lagcar.cl|4.4|32|0|10222519595619196193
+CL|taller|Auto Oriente Service|+56996536556|alomecanico.cl|4.3|16|1|1025339533320360150
+CL|taller|Beiza&Taylor|+56961258631|-|4|11|1|1053902289362918859
+CL|taller|Servicio Automotriz AC|+56976558644|-|4.8|42|1|10567087446389238485
+CL|taller|Importadora Fenic|+56226727565|importadorafenic.cl|4.4|190|1|10646221142720446326
+CL|taller|Mc Rabet|+56225514913|-|4.2|9|0|1102559332236509898
+CL|taller|Automotriz Larenas|+56227750507|-|4.8|17|1|11026784656179915867
+CL|taller|Automotriz Mafer|+56963337706|automotrizmafer.cl|4.1|143|1|11587715570052904967
+CL|estetica|Rizzos Beauty Studio|+56930723840|rizzosbeautystudio.com|5|70|0|10037406748875268101
+CL|estetica|Dúo Belleza JF|+56926391366|wa|4.9|62|1|10062966356223582903
+CL|estetica|Chop Shop Peluquería|+56954723278|basic|4.9|14|1|10100980452258195216
+CL|estetica|Peluquería Cataleya Beauty Center|+56950741148|ig|5|38|1|10169841491724534710
+CL|estetica|Milín Salón|+56957735162|ig|5|18|1|10214887573755082738
+CL|estetica|MS Calidosos Barber & Nails|+56994073756|ig|5|6|1|10221282116823679803
+CL|estetica|Andrea Urbina Beauty Studio|+56936138598|basic|5|65|1|10276926516810891117
+CL|estetica|Evolución Studio|+56951274458|-|5|5|0|10279213781232842965
+CL|estetica|Sophia Nails|+56979170526|ig|5|14|1|10327620529308198498
+CL|estetica|Centro de Estética Punto de Luz|+56996651705|-|3.7|6|1|10354507338506736803
+CL|estetica|The Beauty Studio MV|+56941593142|ig|5|7|1|10361641286025905374
+CL|estetica|Studio6 Ñuñoa|+56972165210|-|5|12|1|10389516172872017625
+CL|estetica|YG Colors|+56922463854|ig|4|8|1|10452140237405197678
+CL|estetica|PrissColor|+56932046423|prisscolor.cl|4.2|32|1|1046613848390364717
+ES|dentista|Clínica Sanzmar|+34915438795|clinicasanzmar.com|4.9|80|1|10011277189533074966
+ES|dentista|Implanta|+34917523252|implantadental.es|5|21|1|10013390832725217877
+ES|dentista|Aluche Dental|+34915187598|aluchedental.com|4.2|31|1|10014248818565015498
+ES|dentista|Clínica Dental Santa Virgilia|+34913819218|-|4.3|34|1|10034353087864254561
+ES|dentista|Asensio Ortodoncia|+34917179284|-|4.6|11|0|10091546169630532543
+ES|dentista|CIPEM Pozuelo|+34918056787|cipem.es|5|123|1|10109831730866328592
+ES|dentista|Clínica Dental Dr. Muñoz|+34917669121|doctormanuelmunoz.com|5|42|1|10128668778962556318
+ES|dentista|Clínica Dental Quezada|+34915339925|fb|4.6|18|1|10151983240793095444
+ES|dentista|Clínica Dental Garmar|+34914597428|garmardental.com|4.5|31|1|10173195300458164886
+ES|dentista|Dr. Carlos Mateos García|+34914489635|-|4.3|8|0|10186007487250279836
+ES|dentista|Clínica Dental Terrón y Oteo|+34636563006|-|4.5|8|1|10193800387260095593
+ES|dentista|Juan Luis Castro Cuadros|+34917434361|-|5|5|1|10199654463111671062
+ES|dentista|Clínica Dental Dr. Sergio Granados|+34914740815|-|5|52|1|10216583409507939864
+ES|dentista|Clínica Dental Taub Glasberg|+34913816275|clinicadentaltaubglasberg.es|4.5|31|1|10220864809741234040
+ES|dentista|Dr. Edgar Cabrera|+34666827227|edgarcabreramaxilofacial.com|5|30|1|10232535167058811861
+ES|dentista|Clínica Dental Rosas|+34913174956|clinicadentalrosas.es|4.9|200|1|10259399126613967336
+ES|dentista|Hospital Dental Delicias|+34601448792|hospitaldentalysaluddelicias.com|4.9|144|1|10266081676541917957
+ES|dentista|Clínica Vidal y Jordán|+34911288896|clinicavidalyjordan.es|4.9|204|1|10286951819546564526
+ES|dentista|Clínica Dental Vallecas|+34913326685|clinicadentalvallecas.es|4.8|279|1|10311152413459690887
+ES|dentista|Odontomax|+34910146262|odontomax.es|4.5|22|1|10323653525878106218
+ES|inmobiliaria|I'm Room Office|+34622348228|imroom.es|5|7|1|10031640813130943549
+ES|inmobiliaria|Miprop|+34914163765|miprop.es|4.7|27|1|10053545242281056010
+ES|inmobiliaria|Gespromar|+34911294656|gespromar.com|2.7|33|1|10085723546237681700
+ES|inmobiliaria|Magerit Homes|+34910181626|magerithomes.com|4.4|188|1|10087670300739657382
+ES|inmobiliaria|Deveral|+34635566418|deveral.es|2.6|5|0|10112559930535504130
+ES|inmobiliaria|Sonia Trigueros NOOW|+34621032037|evademiguelteam.com|5|31|1|10114379510468417867
+ES|inmobiliaria|Global Vadeaín|+34916483595|globalvadeain.com|4.5|23|1|10123455037492935146
+ES|inmobiliaria|Blackhaus Consultores|+34910758572|-|3.9|15|0|10153533783123726930
+ES|inmobiliaria|Vivienda Servi|+34910725315|-|4.5|23|1|10154948118088264477
+ES|inmobiliaria|Espígul Madrid|+34913439848|espigul.com|5|45|1|10159803237135012903
+ES|inmobiliaria|Ispan Invest|+34647530101|ispaninvest.com|4|9|1|10164051330077222461
+ES|inmobiliaria|Tecnocasa Antonio Machado|+34912460444|tecnocasa.es|4.5|192|1|10179541622630563605
+ES|inmobiliaria|Tecnocasa Cebreros|+34914791357|tecnocasa.es|4.6|52|1|10209142853562846256
+ES|inmobiliaria|Gaboc|+34914455587|gaboc.es|4.7|29|1|10222338623241196845
+ES|inmobiliaria|Redpiso Manoteras|+34918314251|redpiso.es|4.6|90|1|10229800487005589064
+ES|gimnasio|Workout Pilates|+34652124121|workoutpilates.es|4.8|31|1|10088170398505146153
+ES|gimnasio|Carmen Trainer|+34692380043|carmentrainer.com|4.9|30|1|10101127580546641451
+ES|gimnasio|MOŌF Fitness Studio|+34676477953|moof-fitness.es|5|11|1|10243104047891553295
+ES|gimnasio|CrossFit Carabanchel|+34673753509|crossfitcarabanchel.com|4.6|90|1|10509396526482069000
+ES|gimnasio|Vive Pilates Madrid|+34915063507|vivepilatesmadrid.com|4.6|78|1|10530971953720427074
+ES|gimnasio|Lolo Fitness|+34657253880|lolofitness.es|5|11|1|10657702047660836364
+ES|gimnasio|Zeus Gimnasio|+34914787524|zeusgimnasio.com|4.8|88|1|10700012663230116791
+ES|gimnasio|Multiespacio Raúl Bueno|+34913854347|multiespacioraulbueno.com|4.8|100|1|10708185737982185634
+ES|gimnasio|VORY Box CrossFit Hortaleza|+34643540045|vory.es|5|161|1|1077692206025058155
+ES|taller|Talleres Gil-Car|+34914777613|-|4.9|15|1|10033674471892996651
+ES|taller|Talleres Family Car|+34914773430|basic|4.8|211|0|10066049797998500010
+ES|taller|Taller SMR Mecánico|+34692442073|tallermecanicosmr.com|5|96|1|10071533357086842958
+ES|taller|Taller Martín|+34676165052|-|4.6|29|1|10110642497653197486
+ES|taller|Taller Autotrans|+34620311960|basic|4.1|7|1|10372837617150309713
+ES|taller|Taller Pestaña Motor|+34915442477|-|4.2|52|1|10377997647048905899
+ES|taller|Auto Radio Pozuelo|+34913520550|-|5|32|0|1040695989617164602
+ES|taller|T. Higuera|+34914300841|-|4.8|68|1|10511568422020941906
+ES|taller|Sunroof España|+34669055214|reparaciondetechossolares.com|5|80|1|10645330204471708721
+ES|taller|Autocentro Villaverde|+34915050056|autocentrovillaverde.com|4.4|171|1|10683478133183653600
+ES|taller|Talleres Alcar|+34917055099|-|3.9|8|0|10885769568037260200
+ES|taller|Garanti Cars|+34911610548|-|1|17|0|10180874640373656766
+ES|estetica|Tatiana Vargas Beauty|+34624080958|ig|4.9|130|1|10005888597165246898
+ES|estetica|Camila Uñas|+34640798411|-|2.2|28|0|10030255900398299245
+ES|estetica|Charo Hernández|+34915774391|charohernandez.com|4.8|6|0|10041366379667218119
+ES|estetica|Salón de Uñas Vallecas|+34632828007|-|3.7|92|1|10044205777510868704
+ES|estetica|Artemiss Beauty|+34914251965|artemissbeauty.com|4.7|258|1|10052805204225200533
+ES|estetica|Quelva|+34917255395|basic|4.8|30|1|1005602489357175672
+ES|estetica|Gio Bossi Peluquería Ecológica|+34915015798|giobossi.es|4.5|238|1|10064237144433186926
+ES|estetica|Centro de Estética Ángeles Cepeda|+34915053509|centroesteticangelescepedamadrid.com|4.8|63|1|10072734243779437310
+ES|estetica|Malavana|+34910822217|-|4.7|190|1|10076203347406682685
+ES|estetica|David Lorente|+34913082844|davidlorente.com|4.8|260|1|10096223008918556578
+ES|estetica|Tesa Lorden|+34915333344|-|4.4|7|1|10101275736441572073
+ES|estetica|Trebol's Peluqueros|+34917550746|ig|4.1|28|1|10120952937320759486
+ES|estetica|MiriamNails|+34624657445|basic|4.2|40|1|10123977288614651662
