@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Asistente Auto Oriente Demo</title>
+<style>
+  :root{
+    --bg:#eef1f4; --ink:#1d2430; --muted:#667085; --card:#fff; --line:#e4e7ec;
+    --wa-head:#075e54; --wa-bg:#efe7de; --wa-out:#d9fdd3; --wa-in:#fff; --wa-green:#25d366;
+    --accent:#0f766e; --hot:#dc6803; --ok:#039855;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0f1318; --ink:#e7ebf0; --muted:#98a2b3; --card:#1a2029; --line:#2a313c;
+      --wa-head:#1f2c34; --wa-bg:#0b141a; --wa-out:#005c4b; --wa-in:#202c33;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0f1318; --ink:#e7ebf0; --muted:#98a2b3; --card:#1a2029; --line:#2a313c;
+    --wa-head:#1f2c34; --wa-bg:#0b141a; --wa-out:#005c4b; --wa-in:#202c33;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .wrap{max-width:1040px;margin:0 auto;padding:24px 16px 40px}
+  header h1{font-size:22px;margin:0 0 4px}
+  header p{margin:0 0 18px;color:var(--muted)}
+  .stage{display:grid;grid-template-columns:380px 1fr;gap:24px;align-items:start}
+  @media (max-width:820px){.stage{grid-template-columns:1fr}}
+
+  /* Teléfono */
+  .phone{background:#111;border-radius:36px;padding:10px;box-shadow:0 20px 50px rgba(0,0,0,.25);max-width:380px;margin:0 auto;width:100%}
+  .screen{border-radius:28px;overflow:hidden;background:var(--wa-bg);display:flex;flex-direction:column;height:680px}
+  .wa-head{background:var(--wa-head);color:#fff;display:flex;align-items:center;gap:10px;padding:14px 14px 12px}
+  .avatar{width:38px;height:38px;border-radius:50%;background:#cfd8dc;color:#37474f;display:grid;place-items:center;font-weight:700;flex:none}
+  .wa-head b{display:block;font-size:15px}
+  .wa-head small{opacity:.85;font-size:12px}
+  .chat{flex:1;overflow-y:auto;padding:12px 10px;display:flex;flex-direction:column;gap:6px;scroll-behavior:smooth}
+  .tag{align-self:center;background:rgba(255,255,255,.85);color:#54656f;font-size:12px;padding:4px 10px;border-radius:8px;margin:4px 0}
+  :root[data-theme="dark"] .tag{background:#182229;color:#8696a0}
+  @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .tag{background:#182229;color:#8696a0}}
+  .msg{max-width:82%;padding:7px 9px 18px;border-radius:9px;position:relative;font-size:14.5px;box-shadow:0 1px .5px rgba(0,0,0,.13);white-space:pre-line;animation:pop .25s ease-out}
+  .in{align-self:flex-start;background:var(--wa-in);border-top-left-radius:2px}
+  .out{align-self:flex-end;background:var(--wa-out);border-top-right-radius:2px}
+  .msg time{position:absolute;right:8px;bottom:3px;font-size:11px;color:var(--muted)}
+  .out time::after{content:" ✓✓";color:#53bdeb}
+  .bot-label{display:block;font-size:11.5px;font-weight:600;color:var(--accent);margin-bottom:2px}
+  .slots{display:flex;flex-direction:column;gap:5px;margin-top:6px}
+  .slots span{border:1px solid var(--line);border-radius:7px;padding:5px 8px;text-align:center;color:#027eb5;font-weight:500;background:rgba(255,255,255,.5)}
+  .slots span.pick{background:#027eb5;color:#fff}
+  .prop{border-radius:7px;overflow:hidden;border:1px solid var(--line);margin:2px 0 6px}
+  .prop .ph{height:92px;background:linear-gradient(135deg,#9ec5d8,#cfe3d4);display:grid;place-items:center;color:#2f4b56;font-weight:600;font-size:13px}
+  .prop .meta{padding:6px 8px;font-size:13px}
+  .typing{align-self:flex-start;background:var(--wa-in);border-radius:9px;padding:9px 12px;display:none;gap:4px}
+  .typing i{width:7px;height:7px;border-radius:50%;background:#9aa4ab;animation:blink 1s infinite}
+  .typing i:nth-child(2){animation-delay:.15s}.typing i:nth-child(3){animation-delay:.3s}
+  .wa-foot{background:var(--wa-bg);padding:8px;display:flex;gap:8px}
+  .wa-foot div{flex:1;background:var(--wa-in);border-radius:20px;padding:9px 14px;color:var(--muted);font-size:14px}
+  .wa-foot span{width:40px;height:40px;border-radius:50%;background:var(--wa-green);flex:none}
+  @keyframes pop{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  @keyframes blink{0%,100%{opacity:.3}50%{opacity:1}}
+
+  /* Panel corredor */
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+  .panel h2{font-size:16px;margin:0 0 2px}
+  .panel .sub{color:var(--muted);font-size:13px;margin:0 0 14px}
+  .stat{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
+  .stat div{border:1px solid var(--line);border-radius:12px;padding:10px}
+  .stat b{display:block;font-size:20px}
+  .stat small{color:var(--muted);font-size:12px}
+  .lead{border:1px solid var(--line);border-radius:12px;padding:14px;opacity:.35;transition:opacity .4s}
+  .lead.live{opacity:1}
+  .lead-top{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap}
+  .pill{font-size:12px;font-weight:600;padding:3px 9px;border-radius:99px;background:var(--line);color:var(--muted)}
+  .pill.hot{background:#fef0c7;color:#93370d}
+  .pill.ok{background:#d1fadf;color:#05603a}
+  .rows{display:grid;grid-template-columns:130px 1fr;gap:6px 10px;font-size:14px}
+  .rows dt{color:var(--muted)}
+  .rows dd{margin:0;font-weight:500}
+  .rows dd.pending{color:var(--muted);font-weight:400;font-style:italic}
+  .notif{margin-top:14px;border-left:3px solid var(--ok);background:rgba(3,152,85,.08);padding:10px 12px;border-radius:6px;font-size:14px;display:none}
+  .controls{display:flex;gap:8px;margin:18px 0 0;flex-wrap:wrap}
+  button{font:inherit;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 14px;border-radius:10px;cursor:pointer}
+  button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+  .foot{color:var(--muted);font-size:12px;margin-top:18px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Asistente de consultas · Taller</h1>
+    <p>Simulación: llega un mensaje por WhatsApp a las 22:47 y el asistente responde, arma el presupuesto y agenda el service sin que nadie del taller intervenga.</p>
+  </header>
+
+  <div class="stage">
+    <div class="phone">
+      <div class="screen">
+        <div class="wa-head">
+          <div class="avatar">AO</div>
+          <div><b>Auto Oriente Service</b><small id="status">en línea</small></div>
+        </div>
+        <div class="chat" id="chat">
+          <div class="tag">HOY</div>
+        </div>
+        <div class="wa-foot"><div>Mensaje</div><span></span></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="panel">
+        <h2>Panel del taller</h2>
+        <p class="sub">Lo que ve el equipo del taller, en tiempo real</p>
+        <div class="stat">
+          <div><b id="s-time">—</b><small>tiempo de respuesta</small></div>
+          <div><b id="s-q">0/4</b><small>datos del cliente</small></div>
+          <div><b id="s-v">0</b><small>services agendados</small></div>
+        </div>
+        <div class="lead" id="lead">
+          <div class="lead-top">
+            <b>Nuevo cliente · Martín R.</b>
+            <span class="pill" id="score">Calificando…</span>
+          </div>
+          <dl class="rows">
+            <dt>Origen</dt><dd>WhatsApp</dd>
+            <dt>Vehículo</dt><dd>Auto: Toyota Corolla 2016</dd>
+            <dt>Consulta</dt><dd class="pending" id="f-obj">pendiente</dd>
+            <dt>Presupuesto</dt><dd class="pending" id="f-fin">pendiente</dd>
+            <dt>Entrega</dt><dd class="pending" id="f-pie">pendiente</dd>
+            <dt>Cuándo</dt><dd class="pending" id="f-plazo">pendiente</dd>
+            <dt>Visita</dt><dd class="pending" id="f-visita">sin agendar</dd>
+          </dl>
+          <div class="notif" id="notif">📲 <b>Aviso enviado al mecánico:</b> service agendado el sábado a las 11:00 para Martín R. (revisión de frenos). Ya está en la agenda del taller.</div>
+        </div>
+      </div>
+      <div class="controls">
+        <button class="primary" id="play">▶ Reproducir</button>
+        <button id="restart">↺ Reiniciar</button>
+        <button id="speed">Velocidad: normal</button>
+      </div>
+      <p class="foot">Simulación. Los datos del cliente son ficticios.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+const BOT = '<span class="bot-label">Asistente Auto Oriente</span>';
+const script = [
+  {who:'in', t:'22:47', text:'Hola, mi Corolla 2016 hace un ruido al frenar. ¿Cuánto sale revisarlo?', after:()=>{lead.classList.add('live')}},
+  {who:'out', t:'22:47', bot:true, html:`${BOT}¡Hola! Lo revisamos. Para darte un presupuesto aproximado:\n¿Es el freno delantero o el trasero? ¿Lo sentís al frenar suave o fuerte?`, after:()=>{set('s-time','8 seg')}},
+  {who:'in', t:'22:48', text:'Delantero, más que nada cuando freno fuerte'},
+  {who:'out', t:'22:48', bot:true, html:`${BOT}Probablemente sean pastillas o discos delanteros. Te paso un rango:\n<div class="prop"><div class="meta"><b>Revisión de frenos</b><br>Pastillas delanteras: desde $45.000<br>Discos delanteros: desde $90.000<br><i>El precio final lo confirma el mecánico al revisar.</i></div></div>¿Te sirve que lo agendemos?`, after:()=>{fill('f-obj','Revisión de frenos delanteros');fill('f-fin','$45.000 a $90.000');q(1)}},
+  {who:'in', t:'22:49', text:'Sí, ¿cuándo tienen lugar?'},
+  {who:'out', t:'22:49', bot:true, html:`${BOT}Tengo estos horarios:<div class="slots"><span>Viernes 18:00</span><span id="pick">Sábado 11:00</span><span>Sábado 16:30</span></div>`, after:()=>{fill('f-plazo','Esta semana');fill('f-pie','Lo deja el cliente');q(2)}},
+  {who:'in', t:'22:50', text:'El sábado a las 11 perfecto', after:()=>{const p=document.getElementById('pick'); if(p) p.classList.add('pick')}},
+  {who:'out', t:'22:50', bot:true, html:`${BOT}¡Listo, Martín! Quedó agendado ✅\n\n📅 Sábado 11:00\n🔧 Revisión de frenos delanteros\n📍 Taller Auto Oriente, Vasco de Gama 4420\n\nEl viernes te mando un recordatorio. ¿Algo más?`, after:()=>{fill('f-visita','Sábado 11:00 · frenos delanteros');q(3);set('s-v','1');score();document.getElementById('notif').style.display='block'}},
+  {who:'in', t:'22:51', text:'Genial, gracias!'},
+];
+
+const chat=document.getElementById('chat'), lead=document.getElementById('lead'), typing=document.createElement('div');
+typing.className='typing'; typing.innerHTML='<i></i><i></i><i></i>';
+let i=0, timer=null, playing=false, speed=1;
+const set=(id,v)=>document.getElementById(id).textContent=v;
+const fill=(id,v)=>{const e=document.getElementById(id); e.textContent=v; e.classList.remove('pending')};
+const q=n=>set('s-q',n+'/4');
+const score=()=>{const s=document.getElementById('score'); s.textContent='🔥 Cliente calificado'; s.className='pill hot'};
+
+function add(step){
+  const d=document.createElement('div'); d.className='msg '+step.who;
+  if(step.html) d.innerHTML=step.html; else d.textContent=step.text;
+  const t=document.createElement('time'); t.textContent=step.t; d.appendChild(t);
+  chat.appendChild(d); chat.scrollTop=chat.scrollHeight;
+  if(step.after) step.after();
+}
+function next(){
+  if(i>=script.length){stop(); document.getElementById('play').textContent='▶ Reproducir'; return;}
+  const step=script[i];
+  if(step.bot){
+    document.getElementById('status').textContent='escribiendo…';
+    typing.style.display='flex'; chat.appendChild(typing); chat.scrollTop=chat.scrollHeight;
+    timer=setTimeout(()=>{typing.style.display='none'; typing.remove(); document.getElementById('status').textContent='en línea'; add(step); i++; schedule(2200)},1300/speed);
+  } else { add(step); i++; schedule(1700); }
+}
+function schedule(ms){ if(playing) timer=setTimeout(next, ms/speed); }
+function play(){ if(playing) return; playing=true; document.getElementById('play').textContent='⏸ Pausa'; next(); }
+function stop(){ playing=false; clearTimeout(timer); }
+function restart(){
+  stop(); i=0; chat.innerHTML='<div class="tag">HOY</div>'; lead.classList.remove('live');
+  ['f-obj','f-fin','f-pie','f-plazo'].forEach(id=>{const e=document.getElementById(id); e.textContent='pendiente'; e.classList.add('pending')});
+  const v=document.getElementById('f-visita'); v.textContent='sin agendar'; v.classList.add('pending');
+  set('s-time','—'); set('s-q','0/4'); set('s-v','0');
+  const s=document.getElementById('score'); s.textContent='Calificando…'; s.className='pill';
+  document.getElementById('notif').style.display='none';
+  document.getElementById('play').textContent='▶ Reproducir';
+}
+document.getElementById('play').onclick=()=>{ if(playing){stop(); typing.remove(); document.getElementById('play').textContent='▶ Reproducir';} else play(); };
+document.getElementById('restart').onclick=restart;
+document.getElementById('speed').onclick=e=>{ speed = speed===1 ? 0.6 : speed===0.6 ? 1.6 : 1; e.target.textContent='Velocidad: '+(speed===1?'normal':speed<1?'lenta':'rápida'); };
+</script>
+</body>
+</html>
